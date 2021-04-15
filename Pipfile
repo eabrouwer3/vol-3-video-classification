@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+ipython = "*"
+numpy = "*"
+scipy = "*"
+sklearn = "*"
+matplotlib = "*"
+av = "*"
+torch = "*"
+torchvision = "*"
+tqdm = "*"
+jupyter-http-over-ws = "*"
+statsmodels = "*"
+hmmlearn = "*"
+nbformat = "*"
+pyts = "*"
+cython = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
